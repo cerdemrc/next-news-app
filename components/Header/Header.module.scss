@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+.header {
+	@apply pt-8;
+
+	& .title {
+		@apply flex flex-col items-center justify-center;
+		font-family: 'Berkshire Swash', cursive;
+
+		& h1 {
+			@apply text-3xl pb-3;
+			@apply md:text-6xl;
+		}
+
+		& p {
+			@apply text-gray-400 italic;
+		}
+	}
+
+	& .nav {
+		@apply bg-black w-full mt-5;
+
+		& ul {
+			@apply flex justify-center text-white uppercase p-3;
+
+			& li a {
+				@apply pr-8;
+				@apply lg:pr-10;
+
+				&:last-child {
+					@apply pr-0;
+				}
+			}
+		}
+	}
+}

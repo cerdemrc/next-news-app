@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+	@apply w-[500px];
+	@apply sm:w-full sm:max-w-7xl;
+}
