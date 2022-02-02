@@ -18,7 +18,7 @@
 	}
 
 	& .nav {
-		@apply bg-black w-full mt-5;
+		@apply bg-black w-full mt-5 min-w-[500px];
 
 		& ul {
 			@apply flex justify-center text-white uppercase p-3;
