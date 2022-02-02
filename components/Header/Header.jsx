@@ -13,7 +13,7 @@ export default function Header() {
 					<li>
 						<a href='#'>World</a>
 						<a href='#'>Politics</a>
-						<a href='#'>Business</a>
+						<a href='#'>Technology</a>
 						<a href='#'>Science</a>
 						<a href='#'>Sports</a>
 					</li>

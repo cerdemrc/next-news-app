@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import News from './news';
+import News from './newsItem';
 import Masonry from 'react-masonry-css';
 import styles from '../public/styles/home.module.scss';
 import { useEffect } from 'react';
@@ -21,6 +21,13 @@ export default function App() {
 		alert('hata');
 	}
 
+	const breakpointColumnsObj = {
+		default: 4,
+		1100: 3,
+		700: 2,
+		500: 1,
+	};
+
 	return (
 		<div className='container'>
 			<Head>
@@ -29,7 +36,7 @@ export default function App() {
 			</Head>
 			{status === 'loading' && <Loading />}
 			<Masonry
-				breakpointCols={3}
+				breakpointCols={breakpointColumnsObj}
 				className={styles.myMasonryGrid}
 				columnClassName={styles.myMasonryGridColumn}>
 				{news.map((item) => (

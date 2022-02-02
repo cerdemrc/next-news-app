@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+.newsCard {
+	@apply flex flex-col justify-center p-5;
+	font-family: 'Inter', sans-serif;
+
+	.title {
+		@apply text-2xl font-bold text-center mt-2;
+	}
+	.content {
+		@apply text-center mt-1;
+	}
+	.author {
+		@apply font-bold text-right mt-4;
+	}
+	.date {
+		@apply text-right text-gray-200 text-xs;
+	}
+	.url {
+		@apply mt-5 text-center py-1 font-bold bg-black text-white;
+	}
+}
