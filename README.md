@@ -14,11 +14,11 @@
 ## :blossom: Todo List
 
 - [x]  Loading Component
-- [ ]  Routing
+- [x]  Routing
 - [ ]  Base Endpoint
 - [ ]  Pagination
 - [x]  Css to NewsItem Page
-- [ ]  Error Component
+- [x]  Error Component
 - [x]  Css to Loading Component
 
 ## :mailbox: Contact
