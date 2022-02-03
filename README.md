@@ -18,7 +18,7 @@
 - [ ]  Base Endpoint
 - [ ]  Css to NewsItem Page
 - [ ]  Error Component
-- [ ]  Css to Loading Component
+- [x]  Css to Loading Component
 
 ## :mailbox: Contact
 
