@@ -1,4 +1,4 @@
-import styles from '../public/styles/newsItem.module.scss';
+import styles from './newsItem.module.scss';
 
 export default function News({ item }) {
 	return (

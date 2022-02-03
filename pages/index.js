@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import News from './newsItem';
+import News from '../components/NewsItem/newsItem';
 import Masonry from 'react-masonry-css';
 import styles from '../public/styles/home.module.scss';
 import { useEffect } from 'react';
