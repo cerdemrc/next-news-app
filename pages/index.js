@@ -5,7 +5,7 @@ import styles from '../public/styles/home.module.scss';
 import { useEffect } from 'react';
 import { fetchNews } from '../redux/newsSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import Loading from '../components/Loading';
+import Loading from '../components/Loading/Loading';
 
 export default function App() {
 	const dispatch = useDispatch();
