@@ -22,10 +22,9 @@ export default function News({ category }) {
 	}
 
 	const breakpointColumnsObj = {
-		default: 4,
-		1100: 3,
-		700: 2,
-		500: 1,
+		default: 3,
+		1300: 2,
+		600: 1,
 	};
 
 	return (
