@@ -6,7 +6,7 @@ export default function Header() {
 		<div className={styles.header}>
 			<div className={styles.title}>
 				<Link href='/'>
-					<a>The New York Times</a>
+					<a>The Inshorts News</a>
 				</Link>
 				<p>This is just for demo purpose, you know.</p>
 			</div>

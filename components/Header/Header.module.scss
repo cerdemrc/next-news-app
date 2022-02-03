@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600&display=swap');
 
 .header {
 	@apply pt-8 min-w-[31.25rem];
 
 	& .title {
-		@apply flex flex-col items-center justify-center;
-		font-family: 'Berkshire Swash', cursive;
+		@apply flex flex-col items-center justify-center tracking-wide;
+		font-family: 'Manrope', sans-serif;
 
 		& a {
-			@apply text-3xl pb-3;
+			@apply text-5xl pb-1 font-extralight tracking-normal border-b-[1px] border-gray-100 mb-3;
 			@apply md:text-6xl;
 		}
 
 		& p {
-			@apply text-gray-100 italic;
+			@apply text-gray-100 italic font-bold;
 		}
 	}
 
