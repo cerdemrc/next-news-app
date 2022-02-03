@@ -7,7 +7,7 @@
 		@apply flex flex-col items-center justify-center;
 		font-family: 'Berkshire Swash', cursive;
 
-		& h1 {
+		& a {
 			@apply text-3xl pb-3;
 			@apply md:text-6xl;
 		}
