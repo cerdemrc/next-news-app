@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import { fetchNews } from '../redux/newsSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import Loading from '../components/Loading/Loading';
+import Error from '../components/Error';
 
 export default function App() {
 	const dispatch = useDispatch();
@@ -18,7 +19,7 @@ export default function App() {
 	}, [dispatch]);
 
 	if (status === 'failed') {
-		alert('hata');
+		<Error />;
 	}
 
 	const breakpointColumnsObj = {
