@@ -1,7 +1,9 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-export const fetchNews = createAsyncThunk('news/getNews', async () => {
-	const res = await fetch('https://inshortsapi.vercel.app/news?category=all');
+export const fetchNews = createAsyncThunk('news/getNews', async (category) => {
+	const res = await fetch(
+		`https://inshortsapi.vercel.app/news?category=${category}`
+	);
 
 	return res.json();
 });
