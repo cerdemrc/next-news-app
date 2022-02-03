@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 .header {
-	@apply pt-8;
+	@apply pt-8 min-w-[500px];
 
 	& .title {
 		@apply flex flex-col items-center justify-center;
@@ -18,7 +18,7 @@
 	}
 
 	& .nav {
-		@apply bg-black w-full mt-5 min-w-[500px];
+		@apply bg-black w-full mt-5;
 
 		& ul {
 			@apply flex justify-center text-white uppercase p-3;
