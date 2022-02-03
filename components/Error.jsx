@@ -6,14 +6,14 @@ export default function Error() {
 
 			<style jsx>{`
 				.error {
-					margin-top: 30px;
+					margin-top: 1.875rem;
 					text-align: center;
-					padding: 20px;
+					padding: 1.25rem;
 					background: #eee;
 					color: #999;
 				}
 				.errorTitle {
-					font-size: 30px;
+					font-size: 1.875rem;
 					font-weight: bold;
 				}
 			`}</style>

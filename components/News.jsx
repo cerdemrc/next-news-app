@@ -29,7 +29,7 @@ export default function News({ category }) {
 	};
 
 	return (
-		<div>
+		<div className={styles.newsWrapper}>
 			{status === 'loading' && <Loading />}
 			<Masonry
 				breakpointCols={breakpointColumnsObj}

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 .header {
-	@apply pt-8 min-w-[500px];
+	@apply pt-8 min-w-[31.25rem];
 
 	& .title {
 		@apply flex flex-col items-center justify-center;
@@ -20,15 +20,20 @@
 	& .nav {
 		@apply bg-black w-full mt-5;
 
-		& ul {
-			@apply flex justify-center text-white uppercase p-3;
+		& .scroll {
+			-webkit-overflow-scrolling: touch;
+			@apply text-white uppercase p-3 whitespace-nowrap overflow-x-auto;
+			@apply sm:flex sm:justify-center;
 
-			& li a {
-				@apply pr-8;
-				@apply lg:pr-10;
+			& li {
+				@apply inline-block;
+				& a {
+					@apply pr-8;
+					@apply lg:pr-10;
 
-				&:last-child {
-					@apply pr-0;
+					&:last-child {
+						@apply pr-0;
+					}
 				}
 			}
 		}
