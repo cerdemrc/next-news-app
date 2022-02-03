@@ -1,5 +1,5 @@
 
-<img align="left" src="https://media.giphy.com/media/Z96Ax1zh5aSsHczGve/giphy.gif" width="16%"> 
+<img align="left" src="https://media.giphy.com/media/Z96Ax1zh5aSsHczGve/giphy.gif" width="20%"> 
   
 <h2>News App</h2>
 <p><strong>Used Techs:</strong> Next Js, Redux Toolkit, SCSS</p>
