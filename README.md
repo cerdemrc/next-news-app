@@ -9,14 +9,13 @@
 
 ## :camera: Screenshots
 
-<img width="1438" src="https://user-images.githubusercontent.com/40372039/152302899-f1210d02-52c1-4a8f-9e93-d9bfe657b17d.png">
+<img width="1438" src="https://user-images.githubusercontent.com/40372039/152335950-7012761f-687c-448a-9f0a-a46725367f77.png">
 
 ## :blossom: Todo List
 
 - [x]  Loading Component
 - [x]  Routing
 - [ ]  Base Endpoint
-- [ ]  Pagination
 - [x]  Css to NewsItem Page
 - [x]  Error Component
 - [x]  Css to Loading Component
