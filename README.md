@@ -16,7 +16,8 @@
 - [x]  Loading Component
 - [ ]  Routing
 - [ ]  Base Endpoint
-- [ ]  Css to NewsItem Page
+- [ ]  Pagination
+- [x]  Css to NewsItem Page
 - [ ]  Error Component
 - [x]  Css to Loading Component
 
