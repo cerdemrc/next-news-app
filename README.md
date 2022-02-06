@@ -9,7 +9,7 @@
 
 ## :camera: Screenshots
 
-<img width="1438" src="https://user-images.githubusercontent.com/40372039/152335950-7012761f-687c-448a-9f0a-a46725367f77.png">
+<img width="1438" src="https://user-images.githubusercontent.com/40372039/152397601-df0ac6e1-958c-4d69-b822-c0ef413743b8.png">
 
 ## :blossom: Todo List
 
