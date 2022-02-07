@@ -15,7 +15,7 @@
 
 - [x]  Loading Component
 - [x]  Routing
-- [ ]  Base Endpoint
+- [x]  Base Endpoint (use prefix next_public)
 - [x]  Css to NewsItem Page
 - [x]  Error Component
 - [x]  Css to Loading Component
