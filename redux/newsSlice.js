@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 export const fetchNews = createAsyncThunk('news/getNews', async (category) => {
 	const res = await fetch(
-		`${process.env.NEXT_PUBLIC_BASE_ENDPOINT}${category}`
+		`https://inshortsapi.vercel.app/news?category=${category}`
 	);
 
 	return res.json();
