@@ -22,7 +22,7 @@ export default function News({ category }) {
 	}
 
 	const breakpointColumnsObj = {
-		default: 3,
+		default: 4,
 		1300: 2,
 		600: 1,
 	};
@@ -30,14 +30,22 @@ export default function News({ category }) {
 	return (
 		<div className={styles.newsWrapper}>
 			{status === 'loading' && <Loading />}
-			<Masonry
-				breakpointCols={breakpointColumnsObj}
-				className={styles.myMasonryGrid}
-				columnClassName={styles.myMasonryGridColumn}>
+			<div className={styles.newsList}>
 				{news.map((item) => (
 					<NewsItem key={item.title} item={item} />
 				))}
-			</Masonry>
+			</div>
 		</div>
+		// <div className={styles.newsWrapper}>
+		// 	{status === 'loading' && <Loading />}
+		// 	<Masonry
+		// 		breakpointCols={breakpointColumnsObj}
+		// 		className={styles.myMasonryGrid}
+		// 		columnClassName={styles.myMasonryGridColumn}>
+		// 		{news.map((item) => (
+		// 			<NewsItem key={item.title} item={item} />
+		// 		))}
+		// 	</Masonry>
+		// </div>
 	);
 }

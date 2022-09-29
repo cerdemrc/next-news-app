@@ -1,14 +1,17 @@
-.myMasonryGrid {
-	@apply flex w-auto -ml-8;
-}
-.myMasonryGridColumn {
-	@apply pl-8 bg-clip-padding;
-}
+.newsList {
+	@apply grid grid-cols-1 mt-8 px-8 gap-5;
+	@apply sm:grid-cols-2;
+	@apply lg:grid-cols-3;
+	@apply xl:grid-cols-4;
 
-.myMasonryGridColumn > div {
-	@apply mb-8 bg-gray-300;
-}
+	& img{
+		@apply w-full h-56;
+	}
 
+	& > div{
+		@apply bg-gray-300;
+	}
+}
 .newsWrapper {
 	@apply min-w-[31.25rem];
 }
