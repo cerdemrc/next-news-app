@@ -4,14 +4,15 @@
 	@apply lg:grid-cols-3;
 	@apply xl:grid-cols-4;
 
-	& img{
+	& img {
 		@apply w-full h-56;
 	}
 
-	& > div{
+	& > div {
 		@apply bg-gray-300;
 	}
 }
 .newsWrapper {
-	@apply min-w-[31.25rem];
+	@apply min-w-[31.25rem] pb-5;
+	@apply lg:pb-10;
 }
